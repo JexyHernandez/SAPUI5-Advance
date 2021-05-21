@@ -47,7 +47,7 @@
                                     </Column>
                                     </columns>
                                     <items>
-                                        <ColumnListItem  type="Active" press="showPostalCode">
+                                        <ColumnListItem  type="Navigation" press="showPostalCode">
                                             <cells>
                                                 <Label text="{EmployeeID}"/>
                                                 <Label text="{LastName}, {FirstName}"/>

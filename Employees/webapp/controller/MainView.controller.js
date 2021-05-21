@@ -88,7 +88,7 @@ sap.ui.define([
             
             sap.m.MessageToast.show(objectContext.PostalCode);
               
-        }
+        };
 
         var Main = Controller.extend("logaligroup.Employees.controller.MainView", {});
 
