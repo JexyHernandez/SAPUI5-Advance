@@ -20,6 +20,7 @@
                             <Button id="btnFilter" text="{i18n>btnFilter}" icon="sap-icon://search" press="onFilter" class="sapUiSmallMarginEnd"></Button>
                             <Button id="btnClearFilter" text="{i18n>btnClearFilter}" icon="sap-icon://clear-filter" press="onClearFilter" class="sapUiSmallMarginEnd"></Button>                          
                        </HBox>
+                       
                         <HBox>
                             <Panel>
                                 <Table id="tableEmployee" items="{/Employees}">

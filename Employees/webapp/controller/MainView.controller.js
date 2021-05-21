@@ -12,6 +12,7 @@ sap.ui.define([
     function (Controller, Filter, FilterOperator) {
         "use strict";
 
+
         function onInit() {
 
             var oJSONModel = new sap.ui.model.json.JSONModel();
@@ -87,7 +88,7 @@ sap.ui.define([
             
             sap.m.MessageToast.show(objectContext.PostalCode);
               
-        };
+        }
 
         var Main = Controller.extend("logaligroup.Employees.controller.MainView", {});
 
